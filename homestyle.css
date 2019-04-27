@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Scriptus";
+  src: url(SCRIPTUS.otf);
+}
+
+* {
+  font-family: "Quicksand";
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.holder {
+  /* overflow: auto; */
+  height: 100%;
+}
+
+.bg {
+  background-image: url("springroll.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: auto;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-around;
+}
+
+.navbar-nav>li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-custom {
+  background-color: #8AA160;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #8AA160;
+}
+
+a {
+  color: white;
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: #35451C;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256,256,256)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h1 {
+  font-family: "Scriptus";
+  font-size: 4em;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  ;
+}
+
+#lime {
+  top: 50px;
+  left: -20px;
+}
+
+#and {
+  top: 20px;
+  font-size: 3em;
+  left: 18px;
+  color: #35451C;
+}
+
+#basil {
+  top: -20px;
+  left: -15px;
+}
+
+#subhead {
+  font-family: "Quicksand";
+}
+
+.circle {
+  background-color: rgba(138, 161, 96, 0.7);
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  border-radius: 125px;
+}
+
+.bordercircle {
+  width: 236px;
+  height: 236px;
+  border-radius: 120px;
+  border: 2px solid #35451C;
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
+.boxcontent {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  min-width: 250px;
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 2px solid #35451C;
+  background-color: rgba(256, 256, 256, 0.6);
+  padding: 30px;
+  margin-bottom: 5vh;
+}
