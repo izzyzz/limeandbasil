@@ -31,7 +31,7 @@ html {
 .navbar-nav {
   width: 100%;
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
@@ -122,7 +122,7 @@ h1 {
   max-width: 500px;
   margin: 0 auto;
   border: 2px solid #35451C;
-  background-color: rgba(256, 256, 256, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 30px;
   margin-bottom: 5vh;
 }

@@ -35,11 +35,11 @@ nav {
 .navbar-nav {
   width: 100%;
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
-.navbar-nav > li {
+.navbar-nav>li {
   flex-grow: 1;
   text-align: center;
 }
@@ -142,7 +142,6 @@ iframe {
   grid-row: 2;
   margin-bottom: 3%;
 }
-}
 
 .reservations {
   grid-row: 3;
@@ -151,7 +150,6 @@ iframe {
 .reservations-details {
   grid-row: 4;
   margin-bottom: 3%;
-}
 }
 
 .payment {

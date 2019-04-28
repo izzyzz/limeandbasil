@@ -30,7 +30,7 @@
     .navbar-nav {
         width: 100%;
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
     }
 
@@ -625,7 +625,7 @@
         .entree-items {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: repeat(13, 0.07692307692);
+            grid-template-rows: repeat(13, 0.07692307692fr);
             width: 85%;
             margin-bottom: 5%;
         }
